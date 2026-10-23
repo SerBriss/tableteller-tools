@@ -1,0 +1,22 @@
+# stdout carries only JSON-RPC: no banner, no console logging, no web server.
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+  datasource:
+    url: jdbc:postgresql://localhost:5432/oracle
+    username: oracle
+    password: oracle
+  ai:
+    mcp:
+      server:
+        name: tableteller-tools
+        version: 0.4.0-beta
+        type: SYNC
+        stdio: true
+logging:
+  console:
+    enabled: false
+  file:
+    name: ${user.home}/.oracle/logs/tableteller-tools.log
+# oracle.packs.dir: unset means ~/.oracle/packs, which may be missing; a directory you set must exist.

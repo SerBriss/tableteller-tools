@@ -1,0 +1,19 @@
+# Tableteller Tools demo pack: original content written for this project, no text from published games.
+# A focus with a target picks an active character or open thread from the campaign's lists.
+pack: demo
+type: focus
+name: default
+die: d100
+entries:
+  - { range: [1, 8], value: "Distant event" }
+  - { range: [9, 16], value: "Unclear event" }
+  - { range: [17, 24], value: "A newcomer appears" }
+  - { range: [25, 42], value: "A character acts", target: character }
+  - { range: [43, 50], value: "Trouble for a character", target: character }
+  - { range: [51, 58], value: "Help for a character", target: character }
+  - { range: [59, 68], value: "A thread moves forward", target: thread }
+  - { range: [69, 74], value: "A thread slips back", target: thread }
+  - { range: [75, 78], value: "A thread comes to a head", target: thread }
+  - { range: [79, 86], value: "Trouble for the hero" }
+  - { range: [87, 94], value: "Help for the hero" }
+  - { range: [95, 100], value: "The current scene shifts" }

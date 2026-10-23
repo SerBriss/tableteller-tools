@@ -1,0 +1,47 @@
+# Tableteller Tools demo pack: original content written for this project, no text from published games.
+pack: demo
+type: meaning
+name: descriptions
+die: d100
+entries:
+  - { range: [1, 5], value: "quietly" }
+  - { range: [6, 10], value: "boldly" }
+  - { range: [11, 15], value: "strangely" }
+  - { range: [16, 20], value: "carefully" }
+  - { range: [21, 25], value: "wildly" }
+  - { range: [26, 30], value: "sadly" }
+  - { range: [31, 35], value: "quickly" }
+  - { range: [36, 40], value: "coldly" }
+  - { range: [41, 45], value: "gently" }
+  - { range: [46, 50], value: "oddly" }
+  - { range: [51, 55], value: "proudly" }
+  - { range: [56, 60], value: "barely" }
+  - { range: [61, 65], value: "warmly" }
+  - { range: [66, 70], value: "darkly" }
+  - { range: [71, 75], value: "eagerly" }
+  - { range: [76, 80], value: "slowly" }
+  - { range: [81, 85], value: "softly" }
+  - { range: [86, 90], value: "fiercely" }
+  - { range: [91, 95], value: "kindly" }
+  - { range: [96, 100], value: "nervously" }
+entries_2:
+  - { range: [1, 5], value: "ancient" }
+  - { range: [6, 10], value: "broken" }
+  - { range: [11, 15], value: "hidden" }
+  - { range: [16, 20], value: "bright" }
+  - { range: [21, 25], value: "hollow" }
+  - { range: [26, 30], value: "sacred" }
+  - { range: [31, 35], value: "rotten" }
+  - { range: [36, 40], value: "gilded" }
+  - { range: [41, 45], value: "frozen" }
+  - { range: [46, 50], value: "tangled" }
+  - { range: [51, 55], value: "quiet" }
+  - { range: [56, 60], value: "crimson" }
+  - { range: [61, 65], value: "fragile" }
+  - { range: [66, 70], value: "massive" }
+  - { range: [71, 75], value: "foreign" }
+  - { range: [76, 80], value: "humble" }
+  - { range: [81, 85], value: "cursed" }
+  - { range: [86, 90], value: "polished" }
+  - { range: [91, 95], value: "ragged" }
+  - { range: [96, 100], value: "sweet" }

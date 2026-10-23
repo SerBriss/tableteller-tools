@@ -1,0 +1,47 @@
+# Tableteller Tools demo pack: original content written for this project, no text from published games.
+pack: demo
+type: meaning
+name: actions
+die: d100
+entries:
+  - { range: [1, 5], value: "seek" }
+  - { range: [6, 10], value: "hide" }
+  - { range: [11, 15], value: "break" }
+  - { range: [16, 20], value: "guard" }
+  - { range: [21, 25], value: "betray" }
+  - { range: [26, 30], value: "bargain" }
+  - { range: [31, 35], value: "warn" }
+  - { range: [36, 40], value: "follow" }
+  - { range: [41, 45], value: "steal" }
+  - { range: [46, 50], value: "repair" }
+  - { range: [51, 55], value: "summon" }
+  - { range: [56, 60], value: "escape" }
+  - { range: [61, 65], value: "reveal" }
+  - { range: [66, 70], value: "delay" }
+  - { range: [71, 75], value: "protect" }
+  - { range: [76, 80], value: "deceive" }
+  - { range: [81, 85], value: "gather" }
+  - { range: [86, 90], value: "awaken" }
+  - { range: [91, 95], value: "challenge" }
+  - { range: [96, 100], value: "restore" }
+entries_2:
+  - { range: [1, 5], value: "secret" }
+  - { range: [6, 10], value: "ally" }
+  - { range: [11, 15], value: "debt" }
+  - { range: [16, 20], value: "border" }
+  - { range: [21, 25], value: "oath" }
+  - { range: [26, 30], value: "rival" }
+  - { range: [31, 35], value: "map" }
+  - { range: [36, 40], value: "storm" }
+  - { range: [41, 45], value: "heir" }
+  - { range: [46, 50], value: "ruin" }
+  - { range: [51, 55], value: "fire" }
+  - { range: [56, 60], value: "crown" }
+  - { range: [61, 65], value: "plague" }
+  - { range: [66, 70], value: "letter" }
+  - { range: [71, 75], value: "gate" }
+  - { range: [76, 80], value: "song" }
+  - { range: [81, 85], value: "beast" }
+  - { range: [86, 90], value: "memory" }
+  - { range: [91, 95], value: "coin" }
+  - { range: [96, 100], value: "shrine" }

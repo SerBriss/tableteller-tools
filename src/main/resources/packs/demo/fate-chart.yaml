@@ -1,0 +1,98 @@
+# Tableteller Tools demo pack: original content written for this project, no text from published games.
+# Thresholds come from the demo fate chart formula in docs/SPEC.md.
+pack: demo
+type: fate_chart
+name: default
+die: d100
+random_event: { rule: doubles_at_or_below_chaos }
+cells:
+  impossible:
+    1: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    2: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    3: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    4: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    5: { exceptional_yes: 1, yes: 5, exceptional_no: 82 }
+    6: { exceptional_yes: 2, yes: 10, exceptional_no: 83 }
+    7: { exceptional_yes: 3, yes: 15, exceptional_no: 84 }
+    8: { exceptional_yes: 4, yes: 20, exceptional_no: 85 }
+    9: { exceptional_yes: 5, yes: 25, exceptional_no: 86 }
+  nearly_impossible:
+    1: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    2: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    3: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    4: { exceptional_yes: 1, yes: 5, exceptional_no: 82 }
+    5: { exceptional_yes: 2, yes: 10, exceptional_no: 83 }
+    6: { exceptional_yes: 3, yes: 15, exceptional_no: 84 }
+    7: { exceptional_yes: 4, yes: 20, exceptional_no: 85 }
+    8: { exceptional_yes: 5, yes: 25, exceptional_no: 86 }
+    9: { exceptional_yes: 6, yes: 30, exceptional_no: 87 }
+  very_unlikely:
+    1: { exceptional_yes: 0, yes: 1, exceptional_no: 82 }
+    2: { exceptional_yes: 1, yes: 5, exceptional_no: 82 }
+    3: { exceptional_yes: 2, yes: 10, exceptional_no: 83 }
+    4: { exceptional_yes: 3, yes: 15, exceptional_no: 84 }
+    5: { exceptional_yes: 4, yes: 20, exceptional_no: 85 }
+    6: { exceptional_yes: 5, yes: 25, exceptional_no: 86 }
+    7: { exceptional_yes: 6, yes: 30, exceptional_no: 87 }
+    8: { exceptional_yes: 7, yes: 35, exceptional_no: 88 }
+    9: { exceptional_yes: 8, yes: 40, exceptional_no: 89 }
+  unlikely:
+    1: { exceptional_yes: 3, yes: 15, exceptional_no: 84 }
+    2: { exceptional_yes: 4, yes: 20, exceptional_no: 85 }
+    3: { exceptional_yes: 5, yes: 25, exceptional_no: 86 }
+    4: { exceptional_yes: 6, yes: 30, exceptional_no: 87 }
+    5: { exceptional_yes: 7, yes: 35, exceptional_no: 88 }
+    6: { exceptional_yes: 8, yes: 40, exceptional_no: 89 }
+    7: { exceptional_yes: 9, yes: 45, exceptional_no: 90 }
+    8: { exceptional_yes: 10, yes: 50, exceptional_no: 91 }
+    9: { exceptional_yes: 11, yes: 55, exceptional_no: 92 }
+  fifty_fifty:
+    1: { exceptional_yes: 6, yes: 30, exceptional_no: 87 }
+    2: { exceptional_yes: 7, yes: 35, exceptional_no: 88 }
+    3: { exceptional_yes: 8, yes: 40, exceptional_no: 89 }
+    4: { exceptional_yes: 9, yes: 45, exceptional_no: 90 }
+    5: { exceptional_yes: 10, yes: 50, exceptional_no: 91 }
+    6: { exceptional_yes: 11, yes: 55, exceptional_no: 92 }
+    7: { exceptional_yes: 12, yes: 60, exceptional_no: 93 }
+    8: { exceptional_yes: 13, yes: 65, exceptional_no: 94 }
+    9: { exceptional_yes: 14, yes: 70, exceptional_no: 95 }
+  likely:
+    1: { exceptional_yes: 9, yes: 45, exceptional_no: 90 }
+    2: { exceptional_yes: 10, yes: 50, exceptional_no: 91 }
+    3: { exceptional_yes: 11, yes: 55, exceptional_no: 92 }
+    4: { exceptional_yes: 12, yes: 60, exceptional_no: 93 }
+    5: { exceptional_yes: 13, yes: 65, exceptional_no: 94 }
+    6: { exceptional_yes: 14, yes: 70, exceptional_no: 95 }
+    7: { exceptional_yes: 15, yes: 75, exceptional_no: 96 }
+    8: { exceptional_yes: 16, yes: 80, exceptional_no: 97 }
+    9: { exceptional_yes: 17, yes: 85, exceptional_no: 98 }
+  very_likely:
+    1: { exceptional_yes: 12, yes: 60, exceptional_no: 93 }
+    2: { exceptional_yes: 13, yes: 65, exceptional_no: 94 }
+    3: { exceptional_yes: 14, yes: 70, exceptional_no: 95 }
+    4: { exceptional_yes: 15, yes: 75, exceptional_no: 96 }
+    5: { exceptional_yes: 16, yes: 80, exceptional_no: 97 }
+    6: { exceptional_yes: 17, yes: 85, exceptional_no: 98 }
+    7: { exceptional_yes: 18, yes: 90, exceptional_no: 99 }
+    8: { exceptional_yes: 19, yes: 95, exceptional_no: 100 }
+    9: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }
+  nearly_certain:
+    1: { exceptional_yes: 14, yes: 70, exceptional_no: 95 }
+    2: { exceptional_yes: 15, yes: 75, exceptional_no: 96 }
+    3: { exceptional_yes: 16, yes: 80, exceptional_no: 97 }
+    4: { exceptional_yes: 17, yes: 85, exceptional_no: 98 }
+    5: { exceptional_yes: 18, yes: 90, exceptional_no: 99 }
+    6: { exceptional_yes: 19, yes: 95, exceptional_no: 100 }
+    7: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }
+    8: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }
+    9: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }
+  certain:
+    1: { exceptional_yes: 15, yes: 75, exceptional_no: 96 }
+    2: { exceptional_yes: 16, yes: 80, exceptional_no: 97 }
+    3: { exceptional_yes: 17, yes: 85, exceptional_no: 98 }
+    4: { exceptional_yes: 18, yes: 90, exceptional_no: 99 }
+    5: { exceptional_yes: 19, yes: 95, exceptional_no: 100 }
+    6: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }
+    7: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }
+    8: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }
+    9: { exceptional_yes: 19, yes: 99, exceptional_no: 101 }

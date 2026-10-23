@@ -1,0 +1,15 @@
+# Local Postgres for Tableteller Tools: docker compose up -d
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped   # comes back after a reboot or a Docker restart
+    environment:
+      POSTGRES_DB: oracle
+      POSTGRES_USER: oracle
+      POSTGRES_PASSWORD: oracle
+    ports:
+      - "127.0.0.1:5432:5432"   # local only
+    volumes:
+      - oracle-data:/var/lib/postgresql/data
+volumes:
+  oracle-data:
